@@ -22,7 +22,13 @@ For development purposes, you may set up the environment manually:
 2. Install the project dependencies:
 
    ```bash
+   cd deepseekapi
    pip3.11 install -e .
+   touch .env
+
+   # Add the following environment variables to the .env file
+   # (replace the values with your own)
+   echo "DEEPSEEK_API_KEY=<api-key>" >> .env
    ```
 
 3. Run the application:
