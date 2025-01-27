@@ -5,6 +5,7 @@ This guide provides instructions for cloning, building, and running the DeepSeek
 ## Features
 
 - Streamed and Non-Streamed Conversations with DeepSeek
+- Use as proxy to not expose DeepSeek API Key in your client-side applications
 
 ## Cloning the Repository
 
